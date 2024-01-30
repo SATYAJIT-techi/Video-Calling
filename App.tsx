@@ -9,7 +9,10 @@ const App = () => {
   const Stack = createNativeStackNavigator();
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator
+        screenOptions={{
+          headerShown: false,
+        }}>
         <Stack.Screen name="Home Screen" component={HomePage} />
         <Stack.Screen name="VC screen" component={VideoCallPage} />
       </Stack.Navigator>
