@@ -1,3 +1,12 @@
+# Improvement Area
+1. after meetingID make copy icon visible
+2. make .env file
+3. setup font style correctly
+   
+
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
