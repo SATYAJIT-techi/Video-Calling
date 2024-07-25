@@ -6,13 +6,12 @@ import {
   GROUP_VIDEO_CALL_CONFIG
 } from '@zegocloud/zego-uikit-prebuilt-call-rn'
 import { useRoute } from '@react-navigation/native';
+import { APP_ID, APP_SIGN } from "react-native-dotenv"
 
 const VideoCallPage = ({ navigation }) => {
   const route = useRoute()
   const callID = route.params
-  const APP_ID = 342090315
 
-  const APP_SIGN = '42dc09eaa3a851643eec3af433214c14c5ffec55b373f81a8d0499bd80bdaa3f'
 
   const userID = String(Math.floor(Math.random() * 100000))
   return (
